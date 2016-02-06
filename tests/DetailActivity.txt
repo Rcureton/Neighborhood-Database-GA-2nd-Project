@@ -1,0 +1,31 @@
+Detail Acitivity
+================
+
+Test 1: Detail screen layout
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Type in the string "Pizza" and press enter.              Expected: Search results appear below.
+Step 3: Click any search result.                                 Expected: User is taken to the detail screen. Title, Location, Neighborhood, and Description are all displayed.
+
+================
+
+Test 2: Enabling favorite
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Type in the string "park" and press enter.               Expected: Search results appear below.
+Step 3: Click on the "Central Park" search result.               Expected: User is taken to the detail screen for Central Park.
+Step 4: Press the favorite button (heart icon)                   Expected: The heart icon changes from empty to solid.
+Step 5: Close the app and restart it.                            Expected: "Central Park" immediately shows in the search results area since it is a favorite.
+
+================
+
+Test 2: Disabling favorite
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Type in the string "pizza" and press enter.              Expected: Search results appear below.
+Step 3: Click on the "Pizza Palace" search result.               Expected: User is taken to the detail screen for Pizza Palace.
+Step 4: Press the favorite button (heart icon)                   Expected: The heart icon changes from empty to solid.
+Step 5: Close the app and restart it.                            Expected: "Pizza Palace" immediately shows in the search results area since it is a favorite.
+Step 6: Click on the "Pizza Palace" search result.               Expected: User is taken to the detail screen for Pizza Palace.
+Step 7: Press the favorite button (heart icon)                   Expected: The heart icon changes from solid to empty.
+Step 8: Close the app and restart it.                            Expected: "Pizza Palace" no longer immediately shows in the search results area because it is no longer a favorite.

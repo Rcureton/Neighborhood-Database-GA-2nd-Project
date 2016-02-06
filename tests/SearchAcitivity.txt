@@ -1,0 +1,21 @@
+Search Acitivity
+================
+
+Test 1: Search box functionality
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Press the back button to the left of the text field.     Expected: Text box disappears and search icon reappears in the top right corner of the screen.
+
+================
+
+Test 2: Empty search results
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Type in the string "NOTVALIDRESULTS" and press enter.    Expected: No search results appear below.
+
+================
+
+Test 3: Populated Search results
+
+Step 1: Click on Search icon in the top right corner.	         Expected: Text box appears and keyboard shows on the screen.
+Step 2: Type the string "Park" and press enter.                  Expected: Multiple search results appear, each with a title, address, and neighborhood.

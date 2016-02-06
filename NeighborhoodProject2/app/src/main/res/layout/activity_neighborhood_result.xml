@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ra.neighborhoodproject2.NeighborhoodResultActivity">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/neighborhoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"
+        />
+    <TextView
+        android:id="@+id/neighborhoodAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_below="@id/neighborhoodName"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/neighborhoodNeighborhood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_below="@id/neighborhoodAddress"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/neighborhoodDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        android:layout_below="@id/neighborhoodNeighborhood"
+        android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</RelativeLayout>
+
+
