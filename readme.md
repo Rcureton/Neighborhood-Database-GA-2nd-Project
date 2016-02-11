@@ -2,6 +2,8 @@
 
 ###Summary###
 
+#![](https://github.com/Rcureton/Project-2/blob/master/screenshots/home_screen-2-11.png?raw=true)
+
 In this project I added a couple of my favorite Neighborhoods and places that I frequent throughout the year in NYC.
 
 La Marina is the perfect place to visit in the summer if you like to enjoy the latin culture with great music and good food.
