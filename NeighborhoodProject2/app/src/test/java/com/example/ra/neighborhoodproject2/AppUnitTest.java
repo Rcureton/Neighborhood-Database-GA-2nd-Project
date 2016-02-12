@@ -15,7 +15,7 @@ public class AppUnitTest {
     @Test
     public void getDrawableImageTest(){
 
-        
+
 
         int expectedValue= R.drawable.brooklynbridge;
         int actualValue= NeighborhoodSQLiteHelper.getDrawableValue("Brooklyn Bridge");
