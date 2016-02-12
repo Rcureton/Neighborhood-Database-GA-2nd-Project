@@ -129,7 +129,7 @@ public class NeighborhoodResultActivity extends AppCompatActivity {
 
 //TODO: getting references to the images and matching to the string name.
 
-    private int getDrawableValue(String icon){
+    public int getDrawableValue(String icon){
         switch(icon){
             case "Brooklyn Museum":
                 return R.drawable.brooklynmuseum1;

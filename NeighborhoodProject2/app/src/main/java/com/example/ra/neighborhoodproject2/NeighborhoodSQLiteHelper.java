@@ -170,7 +170,7 @@ public class NeighborhoodSQLiteHelper extends SQLiteOpenHelper {
         Cursor cursor = db.query(NEIGHBORHOOD_TABLE_NAME, // a. table
                 NEIGHBORHOOD_COLUMNS, // b. column names
                 COL_NEIGHBORHOOD_NAME + " LIKE ?", // c. selections
-                new String[]{query + "%"}, // d. selections args
+                new String[]{"%" + query + "%"}, // d. selections args
                 null, // e. group by
                 null, // f. having
                 null, // g. order by

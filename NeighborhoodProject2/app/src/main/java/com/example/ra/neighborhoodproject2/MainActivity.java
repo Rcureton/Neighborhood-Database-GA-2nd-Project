@@ -83,35 +83,35 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
         NeighborhoodSQLiteHelper helper=  new NeighborhoodSQLiteHelper(MainActivity.this);
         //TODO:Adding Neighborhoods to the Database
 
-        helper.insert(1,"Brooklyn Museum","Neighborhood: Brooklyn" ,"200 Eastern Pkwy, Brooklyn, NY 11238",
+        helper.insert(1,"Brooklyn Museum","Neighborhood: Brooklyn" ,"200 Eastern Parkway, Brooklyn, NY 11238",
       "Description: The Brooklyn Museum is an art museum located in the New York City borough of Brooklyn. At 560,000 square feet (52,000 m), the museum is New York City's third largest in physical size and holds an art collection with roughly 1.5 million works.\n" +
-              " Located near the Prospect Heights, Crown Heights, Flatbush, and Park Slope neighborhoods of Brooklyn and founded in 1895, the Beaux-Arts building, designed by McKim, Mead and White, was planned to be the largest art museum in the world.\n" +
-              " The museum initially struggled to maintain its building and collection, only to be revitalized in the late 20th-century, thanks to major renovations. Significant areas of the collection include antiquities, specifically their collection of Egyptian antiquities spanning over 3,000 years. African, Oceanic, and Japanese art make for notable antiquities collections as well. American art is heavily represented, starting at the Colonial period.\n" +
-              " Artists represented in the collection include Mark Rothko, Edward Hopper, Norman Rockwell, Winslow Homer, Edgar Degas, Georgia O'Keeffe, and Max Weber. The museum also has a Memorial Sculpture Garden which features salvaged architectural elements from throughout New York City.\"", 1,
+              "Located near the Prospect Heights, Crown Heights, Flatbush, and Park Slope neighborhoods of Brooklyn and founded in 1895, the Beaux-Arts building, designed by McKim, Mead and White, was planned to be the largest art museum in the world.\n" +
+              "The museum initially struggled to maintain its building and collection, only to be revitalized in the late 20th-century, thanks to major renovations. Significant areas of the collection include antiquities, specifically their collection of Egyptian antiquities spanning over 3,000 years. African, Oceanic, and Japanese art make for notable antiquities collections as well. American art is heavily represented, starting at the Colonial period.\n" +
+              "Artists represented in the collection include Mark Rothko, Edward Hopper, Norman Rockwell, Winslow Homer, Edgar Degas, Georgia O'Keeffe, and Max Weber. The museum also has a Memorial Sculpture Garden which features salvaged architectural elements from throughout New York City.\"", 1,
                         "https://www.brooklynmuseum.org/");
 
 
-        helper.insert(2,"Brooklyn Bridge","Neighborhood: Brooklyn" ,"Brooklyn Bridge, New York, NY",
+        helper.insert(2,"Brooklyn Bridge","Neighborhood: Brooklyn" ,"235 Adams St, New York, NY 11201",
         "Description: The Brooklyn Bridge is a hybrid cable-stayed/suspension bridge in New York City and is one of the oldest bridges of either type in the United States. Completed in 1883, it connects the boroughs of Manhattan and Brooklyn by spanning the East River. It has a main span of 1,595.5 feet (486.3 m), and was the first steel-wire suspension bridge constructed.\n" +
-                " It was originally referred to as the New York and Brooklyn Bridge and as the East River Bridge, but it was later dubbed the Brooklyn Bridge, a name coming from an earlier January 25, 1867,\n" +
-                " letter to the editor of the Brooklyn Daily Eagle, and formally so named by the city government in 1915. Since its opening, it has become an icon of New York City, and was designated a National Historic Landmark in 1964 and a National Historic Civil Engineering Landmark in 1972. ", 0,
+                "It was originally referred to as the New York and Brooklyn Bridge and as the East River Bridge, but it was later dubbed the Brooklyn Bridge, a name coming from an earlier January 25, 1867,\n" +
+                "letter to the editor of the Brooklyn Daily Eagle, and formally so named by the city government in 1915. Since its opening, it has become an icon of New York City, and was designated a National Historic Landmark in 1964 and a National Historic Civil Engineering Landmark in 1972. ", 0,
                         "http://www.history.com/topics/brooklyn-bridge");
 
 
         helper.insert(3,"La Marina","Neighborhood: Washington Heights", "348 Dyckman St, New York, NY 10034",
         "Description: Dyckman Marina has been a vital part of upper Manhattan’s unique waterfront culture for more than two centuries. Where in former times, notable Manhattanites kept their summer estates and yachts, where seaplanes and ferries dotted the piers, nestled just below the Cloisters at the end of Dyckman Street along the Hudson River, sits the new La Marina, NOW OPEN. The newly rebuilt restaurant, bar, lounge and events space covers more than 75,000 square feet of Hudson River waterfront in Upper Manhattan for you to plan your event. A short walk from the A-train, La Marina is the ideal spot in NYC to enjoy cocktails at sunset, to hop off your bike for a break, to host your event, or to enjoy a romantic,\n" +
-                "  moonlit dinner for two. La Marina offers a unique experience that infuses a touch of South Beach in Manhattan, setting the perfect backdrop for private social events or corporate parties. ", 1,
+                "moonlit dinner for two. La Marina offers a unique experience that infuses a touch of South Beach in Manhattan, setting the perfect backdrop for private social events or corporate parties. ", 1,
                         "https://foursquare.com/v/la-marina-nyc/4faad0484fc68152ec7e368c");
 
 
-        helper.insert(4,"Freedom Tower", "Neighborhood: Manhattan", "One World Trade Center",
+        helper.insert(4,"Freedom Tower", "Neighborhood: Manhattan", "285 Fulton St, New York, NY 10006",
         "Description:  The Brooklyn Heights Promenade will take your breath away. Made famous by cameo appearances in movies like Annie Hall and Moonstruck, it is one of the most romantic spots in New York City, and has been the destination for thousands of first dates, wedding proposals and anniversary celebrations. One-third of a mile long, it offers a vista of the Statue of Liberty,\n" +
-                "         the Manhattan skyline and the majestic Brooklyn Bridge. Lined with flower beds, trees, benches and playgrounds, the promenade is a favorite destination for tourists, joggers, strollers, families and lovers." , 0, "https://oneworldobservatory.com/");
+                "the Manhattan skyline and the majestic Brooklyn Bridge. Lined with flower beds, trees, benches and playgrounds, the promenade is a favorite destination for tourists, joggers, strollers, families and lovers." , 0, "https://oneworldobservatory.com/");
 
 
-        helper.insert(5,"Brooklyn Heights Promenade", "Neighborhood: Brooklyn","Pierrepont Pl, Brooklyn, NY 11201",
+        helper.insert(5,"Brooklyn Heights Promenade", "Neighborhood: Brooklyn","300 Furman St, Brooklyn, NY 11201",
          "Description:  The Brooklyn Heights Promenade will take your breath away. Made famous by cameo appearances in movies like Annie Hall and Moonstruck, it is one of the most romantic spots in New York City, and has been the destination for thousands of first dates, wedding proposals and anniversary celebrations. One-third of a mile long, it offers a vista of the Statue of Liberty,\n" +
-                 "         the Manhattan skyline and the majestic Brooklyn Bridge. Lined with flower beds, trees, benches and playgrounds, the promenade is a favorite destination for tourists, joggers, strollers, families and lovers." ,1,
+                 "the Manhattan skyline and the majestic Brooklyn Bridge. Lined with flower beds, trees, benches and playgrounds, the promenade is a favorite destination for tourists, joggers, strollers, families and lovers." ,1,
                         "https://foursquare.com/v/brooklyn-heights-promenade/42377700f964a52024201fe3");
 
 
@@ -121,11 +121,11 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
 
         helper.insert(7, "Havana Central", "Neighborhood: Upper West Side", "2911 Broadway, New York, NY 10025",
         "Description: Back in 2001, Jeremy Merrin was looking for a new, entrepreneurial concept. He loves Latin cooking and frequented local Cuban restaurants. After seeing the popularity of many local Cuban restaurants, he began to think about a concept where people could get big plates of rice and beans for reasonable prices. However, he knew nothing about the restaurant business. After extensive interviewing, Jeremy met with Arlene Spiegel, a restaurant consultant and former restaurant owner. Together,\n" +
-                "        they decided that there is a great opportunity in Cuban cuisine and dedicated the next nine months to creating a restaurant plan that had the best possible chance for success.Jeremy’s first hire, to manage the restaurant was Stanley Licairac. Stanley was (and still is) instrumental in setting the culinary direction and very much the atmosphere of Havana Central. Stanley is currently the Executive Chef of Havana Central.\n" +
-                "        On June 24th, 2002, Havana Central opened its doors to a big crowd and great reviews.", 0
+                "they decided that there is a great opportunity in Cuban cuisine and dedicated the next nine months to creating a restaurant plan that had the best possible chance for success.Jeremy’s first hire, to manage the restaurant was Stanley Licairac. Stanley was (and still is) instrumental in setting the culinary direction and very much the atmosphere of Havana Central. Stanley is currently the Executive Chef of Havana Central.\n" +
+                "On June 24th, 2002, Havana Central opened its doors to a big crowd and great reviews.", 0
                     ,"http://www.opentable.com/havana-central-times-square");
 
-        helper.insert(8,"The Highline NYC", "Neighborhood: Chelsea", "Manhattan, New York 10011",
+        helper.insert(8,"The Highline NYC", "Neighborhood: Chelsea", "161 10th Ave New York, New York 10011",
                 "Description: The High Line (also known as the High Line Park) is a 1.45-mile-long (2.33 km) New York City linear park built in Manhattan on an elevated section of a disused New York Central Railroad spur called the West Side Line. " +
                         "Inspired by the 3-mile (4.8-kilometer) Promenade plantée (tree-lined walkway), a similar project in Paris completed in 1993," +
                         " the High Line has been redesigned and planted as an aerial greenway and rails-to-trails park.",0, "http://www.thehighline.org/");
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
                         " General Assembly is an educational institution that transforms thinkers into creators through education in technology," +
                         " business and design at fifteen campuses across four continents", 1, "https://generalassemb.ly/");
 
-        helper.insert(10,"Charging Bull", "Neighborhood: Financial District", "Broadway & Morris Street, New York, New York",
+        helper.insert(10,"Charging Bull", "Neighborhood: Financial District", "10-30 Canyon of Heroes, New York, New York 10004",
                 "Description: The 3,200-kilogram (7,100 lb) sculpture stands 11 feet (3.4 m) tall[1] and measures 16 feet (4.9 m) long.The oversize sculpture depicts a bull, the symbol of aggressive financial optimism and prosperity, " +
                         "leaning back on its haunches and with its head lowered as if ready to charge. The sculpture is both a popular tourist destination which draws thousands of people a day, as well" +
                         " as one of the most iconic images of New York and a Wall Street icon symbolizing Wall Street and the Financial District.",0, "http://chargingbull.com/");
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
                         "https://foursquare.com/v/amy-ruths/3fd66200f964a52066e81ee3");
 
 
-        helper.insert(14,"Harlem Tavern", "Neighborhood: Harlem", "2153 Frederick Douglass Blvd, New York, NY 10026",
+        helper.insert(14,"Harlem Tavern", "Neighborhood: Harlem", "2153 Frederick Douglass Boulevard, New York, NY 10026",
                 "Description: Harlem Tavern is New York City’s premiere restaurant and beer garden.  An uptown neighborhood bar and grill, Harlem Tavern is located on 116th St and Frederick Douglass Blvd just blocks from historic Central Park.  Harlem Tavern offers an ideal space for all dining experiences. " +
                         " Its family friendly environment has something for everyone: cutting edge cocktails, a large craft beer selection and a menu designed to suit all tastes.",0,
                         "https://foursquare.com/v/harlem-tavern/4deffce2b0fbfee72f3cacde");
@@ -224,6 +224,10 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
             case R.id.favorites:
                 Intent intent= new Intent(MainActivity.this, NeighborhoodFavorites.class);
                 startActivity(intent);
+                return true;
+            case R.id.home:
+                Intent intent1= new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent1);
                 return true;
 
             default:
