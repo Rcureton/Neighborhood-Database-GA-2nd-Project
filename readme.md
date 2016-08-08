@@ -1,23 +1,12 @@
-#![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)#Welcome to my Neighborhood By Rashad Cureton#
+#Welcome to my Neighborhood
 
-###Summary###
+##Overview:
+My 2nd General Assembly Android Immersive project I created a Neighborhood database app using SQLite and I was also able to add in the Yahoo Weather API. In this project I added a couple of my favorite Neighborhoods and places that I frequent throughout the year in NYC.
 
-#![](https://github.com/Rcureton/Project-2/blob/master/screenshots/home_screen-2-11.png?raw=true)
+###Key Technologies:
+- SQLite database
+- Yahoo Weather API
+- Android WebView
 
-In this project I added a couple of my favorite Neighborhoods and places that I frequent throughout the year in NYC.
-
-La Marina is the perfect place to visit in the summer if you like to enjoy the latin culture with great music and good food.
-
-The Brooklyn Museum is great if you like art exhibits and new galleries. First Saturdays at the BK museum are filled tons of events.
-
-The Freedom Tower is great if you want to visit a symbol of history for the city of New York and the United States.
-
-Brooklyn Bridge is probably one of the most famous bridges in the world pictured in almost every movie filmed in New York.
-
-Havana Central Is staple in Cuban culture if you're ever in Midtown or the Upper West Side don't hesitate to go eat some great food.
-
-The Meatball Shop is one of my favorite restaurants, if you love great Hip-Hop music and any combination of meatballs please make your way here.
-
-The Brooklyn Heights Promenade is great for a date, so if you like talking and taking in great scenery this is the place where you can build some magic.
-
-![](http://www.cultivatingculture.com/wp-content/uploads/2013/01/New-York-City-Red-Ten-NYC-Outsourced-Sales-and-Marketing-920x400.jpeg)
+###Screenshots:
+![](http://static1.squarespace.com/static/56edb20d4d088eba2c0f8d4b/56edb55d62cd9413e150add8/56edb55e7c65e44921b12713/1458419048555/home_screen-2-11.png?format=300w) 1[](http://static1.squarespace.com/static/56edb20d4d088eba2c0f8d4b/56edb55d62cd9413e150add8/56edb55d7c65e44921b1270d/1458419044283/favorites.png?format=300w) ![](http://static1.squarespace.com/static/56edb20d4d088eba2c0f8d4b/56edb55d62cd9413e150add8/56edb55df699bb0ad8f49d3e/1458419047592/ga.png?format=300w)
